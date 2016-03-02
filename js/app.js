@@ -103,7 +103,7 @@ app.directive('tySpeed', function (Paragraph,$window) {
              * Disabled Cut Copy and Paste Functions
              */
             element.on('cut copy paste', function (event) {
-                $window.alert("Why are you in a hurry :)");
+                $window.alert("Ծանուցում այն մասին , որ դու ք  փորձում եք խորամանկել :)");
                 event.preventDefault();
             });
 
@@ -153,7 +153,7 @@ app.directive('tySpeed', function (Paragraph,$window) {
  */
 app.controller('main_controller', ['$scope', 'Paragraph', '$interval', '$window', function ($scope, Paragraph, $interval, $window) {
 
-    var minutes = 2;
+    var minutes = 1;
     var seconds = 60;
     var startTimer;
 
